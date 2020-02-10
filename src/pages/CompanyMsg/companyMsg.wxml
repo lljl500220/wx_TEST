@@ -1,0 +1,15 @@
+<!--src/pages/CompanyMsg/companyMsg.wxml-->
+<view class="brief">
+  <view class="briefName">
+    {{getName}}
+  </view>
+  <view class="briefSalary">
+    {{company.salary}}元/月
+  </view>
+  <view class="briefXueli">
+    学历:{{company.xueli}}
+  </view>
+  <view class="briefNumber">
+    人数:{{company.number}}
+  </view>
+</view>

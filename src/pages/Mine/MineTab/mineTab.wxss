@@ -1,0 +1,5 @@
+/* src/pages/Mine/MineTab/mineTab.wxss */
+.resume{
+  width: 100%;
+  height: 600tpx;
+}

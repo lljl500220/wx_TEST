@@ -1,0 +1,14 @@
+<view class="page" wx:for="{{massages}}" wx:key="key" wx:for-item="itemName">
+  <view class="weui-panel">
+    <view class="weui-panel__bd">
+      <view class="weui-media-box weui-media-box_text">
+        <view class="weui-media-box__title weui-media-box__title_in-text">{{itemName.who}}</view>
+        <view class="weui-media-box__desc">{{itemName.content}}</view>
+        <view class="weui-media-box__info">
+          <view class="weui-media-box__info__meta">发送时间：</view>
+          <view class="weui-media-box__info__meta">{{itemName.time}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

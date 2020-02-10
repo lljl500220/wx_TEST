@@ -1,0 +1,13 @@
+<view>
+  <swiper class="postSwiper" indicator-dots="true" autoplay="true" interval="5000">
+  <swiper-item>
+     <image class="swiperImage" src="../../../image/swiper1.jpg"/>
+   </swiper-item>
+   <swiper-item>
+     <image class="swiperImage" src="../../../image/swiper2.jpg"/>
+   </swiper-item>
+   <swiper-item>
+     <image class="swiperImage" src="../../../image/swiper3.jpeg"/>
+   </swiper-item>
+  </swiper>
+</view>

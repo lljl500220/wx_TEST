@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "src/pages/StudentPages/StudentIndex/StudentIndex",
+    "src/pages/Mine/Mine/mine",
+    "src/pages/Massage/Massage/massage",
+    "src/pages/TwoStage/Sign/sign",
+    "src/pages/Mine/MineTab/mineTab",
+    "src/pages/CompanyMsg/companyMsg"
+  ],
+  "sitemapLocation": "sitemap52.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "backgroundColor": "#eeeeee",
+    "selectedColor": "#3366CC",
+    "color": "#FF99CC",
+    "list": [
+      {
+        "iconPath": "src/image/index-1.png",
+        "selectedIconPath": "src/image/index-2.png",
+        "pagePath": "src/pages/StudentPages/StudentIndex/StudentIndex",
+        "text": "首页"
+      },
+      {
+        "iconPath": "src/image/msg-1.png",
+        "selectedIconPath": "src/image/msg-2.png",
+        "pagePath": "src/pages/Massage/Massage/massage",
+        "text": "消息"
+      },
+      {
+        "iconPath": "src/image/mine-1.png",
+        "selectedIconPath": "src/image/mine-2.png",
+        "pagePath": "src/pages/Mine/Mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

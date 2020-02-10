@@ -1,0 +1,23 @@
+<!--src/pages/StudentPages/towStage/twoStage.wxml-->
+<view>
+  <view class="btnView">
+    <button type="defult" class="twStn" bindtap="oneClick">
+      <image class="btnImage" src="../../../image/approve.png" />
+    </button>
+    <text id="twText">审批</text>
+  </view>
+
+  <view class="btnView">
+    <button type="defult" class="twStn" bindtap="twoClick">
+      <image class="btnImage" src="../../../image/sign.png" />
+    </button>
+    <text id="twText">签到</text>
+  </view>
+
+  <view class="btnView">
+    <button type="defult" class="twStn" bindtap="threeClick">
+      <image class="btnImage" src="../../../image/report.png" />
+    </button>
+    <text id="twText">报告</text>
+  </view>
+</view>

@@ -1,0 +1,163 @@
+/* src/pages/StudentPages/StudentIndex.wxss */
+@import "weui.wxss";
+.button-hover{background-color: black;} 
+/* 按钮点击样式、暂时无用 */
+
+.btnText{
+  text-align: center;
+  text-shadow: 5rpx 5rpx rgb(229, 238, 243);
+}
+/*按钮文本阴影 */
+
+.place-holder {
+    font-size: 12px;
+    position: absolute;
+    left: 40rpx;
+}
+/* 内嵌文字样式 */
+
+.postSwiper{
+  position: relative;
+  width: 80%;
+  left: 10%;
+  top: 20rpx;
+  border-radius: 40rpx;
+  overflow: hidden;
+}
+
+.swiperImage{
+  width: 100%;
+  height: 98%;
+  border-radius: 18rpx;
+  will-change: transform;
+}
+
+/* src/pages/StudentPages/towStage/twoStage.wxss */
+.btnView{
+  width: 20%;
+  height: 150rpx;
+  position: relative;
+  top: 50rpx;
+  left: 20%;
+  display: inline-block; 
+}
+
+
+.twStn{
+  border: 0rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 999rpx;
+}
+
+.btnImage{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+#twText{
+  text-align: center;
+  position: relative;
+  top: 10rpx;
+  left: 50rpx;
+}
+
+.line{
+  position: relative;
+  top: 55rpx;
+  left: 10%;
+  background-color: rgba(194, 189, 189, 0.952);
+  width: 80%;
+  height: 5rpx;
+}
+
+.weui-tabbar{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.panelTable{
+  margin-top: 10rpx;
+}
+
+
+::-webkit-scrollbar{
+width: 0;
+height: 0;
+color: transparent;
+}
+/* 隐藏滚动条 */
+
+
+
+
+.weui-search-bar {
+  position: relative;
+  padding: 8px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #EFEFF4;
+  border-top: 1rpx solid #D7D6DC;
+  border-bottom: 1rpx solid #D7D6DC;
+}
+.weui-icon-search {
+  margin-top: 15rpx;
+  margin-right: 4px;
+  font-size: inherit;
+}
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 12px;
+  top: 15px;
+}
+.weui-search-bar__text {
+  display: inline-block;
+  font-size: 16px;
+}
+.weui-search-bar__form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+          flex: auto;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1rpx solid #E6E6EA;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.weui-search-bar__label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 3px;
+  text-align: center;
+  color: #9B9B9B;
+  background: #FFFFFF;
+  line-height: 28px;
+}
+.weui-search-bar__cancel-btn {
+  margin-left: 10px;
+  line-height: 28px;
+  color: #09BB07;
+  white-space: nowrap;
+}

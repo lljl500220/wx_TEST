@@ -1,0 +1,6 @@
+<!--src/pages/StudentPages/StudentIndex.wxml-->
+<include src="../SearchBar/searchBar" />
+<include src="../Swiper/swiper" />
+<include src="../twoStage/twoStage"/>
+<include src="../Line/line"/>
+<include src="../Panel/panel"/>

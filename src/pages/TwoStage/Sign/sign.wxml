@@ -1,0 +1,64 @@
+<!--pages/signIn/signIn.wxml-->
+<view class='signIn'>
+  <view class='sign-com'>
+    <view class='thead'>
+      <view class='tt'>已连续签到</view>
+      <view class='mm'>
+        <label class='n'>{{signNum}}</label>天</view>
+    </view>
+    <view class='modle'>
+      <view class='mol'>
+        <view class='mol-line'></view>
+        <view class='mol-ites'>
+          <view class="ite {{signNum>=min?'hover':''}}" data-n='{{min}}'>
+            <label class='n'>√
+              </label>
+          </view>
+          <view class="ite {{signNum>=min+1?'hover':''}}" data-n='{{min+1}}'>
+            <label class='n'>√
+              </label>
+          </view>
+          <view class="ite {{signNum>=min+2?'hover':''}}" data-n='{{min+2}}'>
+            <label class='n'>√
+              </label>
+          </view>
+          <view class="ite {{signNum>=min+3?'hover':''}}" data-n='{{min+3}}'>
+            <label class='n'>√
+              </label>
+          </view>
+          <view class="ite {{signNum>=min+4?'hover':''}}" data-n='{{min+4}}'>
+            <label class='n'>√
+              </label>
+          </view>
+          <view class="ite {{signNum>=min+5?'hover':''}}" data-n='{{min+5}}'>
+            <label class='n'>√
+              </label>
+          </view>
+          <view class="ite {{signNum>=min+6?'hover':''}}" data-n='{{max}}'>
+            <label class='n'>√
+              </label>
+          </view>
+        </view>
+      </view>
+      <view class='moday'>
+        <label class='dd'>周一</label>
+        <label class='dd'>周二</label>
+        <label class='dd'>周三</label>
+        <label class='dd'>周四</label>
+        <label class='dd'>周五</label>
+        <label class='dd'>周六</label>
+        <label class='dd'>周日</label>
+      </view>
+    </view>
+
+    <view class='the-btn'>
+      <button type='button' class='btn' bindtap='bindSignIn' data-num="{{signNum}}" disabled='{{signState}}' data-be="{{be}}">签到</button>
+    </view>
+  </view>
+</view>
+
+<view class='explax'>
+  <view class=''>漏签日期{{min}} </view>
+  <view class=''>本周签到{{signNum}}天</view>
+  <view class=''>这是本月第{{be}}周</view>
+</view>

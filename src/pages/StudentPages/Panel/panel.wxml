@@ -1,0 +1,21 @@
+<scroll-view scroll-y="true" style="height:1000rpx;margin-top:55rpx;">
+  <view class="panelTable" wx:for="{{companies}}" wx:key="key" wx:for-item="itemName">
+    <view class="page__bd">
+      <view class="weui-panel weui-panel_access">
+        <view class="weui-panel__bd">
+          <navigator url="../../../pages/CompanyMsg/companyMsg?getName={{itemName.company}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+              <image class="weui-media-box__thumb" src="{{itemName.imageUrl}}" />
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+              <view class="weui-media-box__title">{{itemName.position}}</view>
+              <view class="weui-media-box__titleRit1">{{itemName.salary}}RMB</view>
+              <view class="weui-media-box__titleRit2">{{itemName.company}}</view>      
+              <view class="weui-media-box__desc">{{itemName.companyMsg}}</view>
+            </view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
